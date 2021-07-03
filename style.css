@@ -13,14 +13,15 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
-.bio {
+.half-width {
     width: 100%;
     padding-left: 2%;
 }
 
-.profile-image {
+.half-width img {
     width: 90%;
 }
 
@@ -37,4 +38,12 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-repeat: no-repeat;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+}
+.description{
+    padding-bottom: 20px;
 }
