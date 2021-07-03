@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flex-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -46,4 +46,7 @@ section {
 }
 .description{
     padding-bottom: 20px;
+}
+.experience-heading{
+    padding-left: 20px;
 }
